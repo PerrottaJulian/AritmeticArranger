@@ -1,5 +1,4 @@
-problems = list()
-problems = ["1234 + 101", "25 - 324", "31 + 25", "120 - 3215"]
+
 
 def aritmetic_arranger(problems, solve = False):
     if len(problems) > 5:
@@ -43,5 +42,3 @@ def aritmetic_arranger(problems, solve = False):
 
     return(arranged_problems)
     
-print(aritmetic_arranger(problems, True))
-        
